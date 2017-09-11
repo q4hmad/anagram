@@ -24,6 +24,14 @@ class Game
     end
   end
 
+  def vowel_checker(string)
+  vowels = string.split(//).count {|str| "aeiouy".include?(str) }
+  if  (vowels > 0)
+    return true
+  else
+    false
+  end
+  end
 end
 
 #   def word_compare

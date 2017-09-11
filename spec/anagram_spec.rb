@@ -12,6 +12,10 @@ describe('#game') do
     expect(ruby2.ignore_caps?()).to(eq(true))
   end
 
+  it('takes a string and checks for vowels') do
+    expect(ruby3.vowel_checker("brfg")).to(eq(false))
+  end
+
 
 
   # it "takes 2 words and puts them in an array"
