@@ -27,10 +27,7 @@ describe('#game') do
     expect(antigram('hello', 'stays')).to(eq("This is an antigram."))
   end
 
-  it("makes a sentence into a string and checks to see if it is a palindrome.") do
-    expect(sentence_check("I am HOME")).to(eq("emohmai"))
+  it("Checks two words to see if they are antigrams or anagrams.") do
+    expect(sentence_check("I COULD", 'he Was')).to(eq("These words are antigrams."))
   end
-
-
-
 end

@@ -47,8 +47,13 @@
     end
   end
 
-  def string_check(string)
-      string.gsub(/\s+/, "").downcase.reverse 
+  def sentence_check(string1, string2)
+    string1 = string1.split(//).sort().join.downcase()
+    string2 = string2.split(//).sort().join.downcase()
+    if string1 == string2
+      return "This is an anagram"
+    elsif
+      antigram(string1, string2) == ("This is an antigram.")
+      return "These words are antigrams."
+    end
   end
-
-  def
