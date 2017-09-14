@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
-# class Game
-  # def initialize
-  # end
+class Game
+  def initialize
+    
+  end
+
 
   def check_word(word)
     # vowels is number
@@ -57,3 +59,4 @@
       return "These words are antigrams."
     end
   end
+end
