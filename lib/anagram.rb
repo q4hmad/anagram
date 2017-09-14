@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-class Game
+class Anagram
   def initialize
-    
+
   end
 
 
